@@ -1,0 +1,85 @@
+.menu {
+    display: flex;
+    justify-content:space-between;
+    background-color:rgb(0, 0, 0);
+    font-size: 20px;
+    font-family:sans-serif;
+    font-weight: 200;
+    color:#ffffff
+}
+.header *{
+    padding-top: 1%;
+    padding-left: 1%;
+    color: white
+}
+
+.item2 *{
+    padding-top: 0%;
+    justify-content: center;
+}
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 2px solid black;
+    border-radius: 20px;
+
+}
+.grid *{
+    margin: 0.1%;
+}
+
+.origami{
+justify-content:space-around;    
+    border-radius: 10px; 
+    background-color :#f1f1f1;
+    width: 310px;
+    font-family:cursive ;
+}
+
+.origami *{
+    margin: 1%;
+    padding: 1.0%;
+}
+
+.body{
+    justify-content: center;
+    background-color: rgb(255, 106, 106);
+    font-family:cursive;
+    color: rgb(0, 0, 0);
+}
+ 
+.body *{
+    margin: 0%;
+    padding: 0.2%;
+    background-color: #f39c9c;
+    
+}
+
+
+.examples{
+    display: flex;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    width: 310px;
+    font-family: cursive;
+}
+
+.examples *{
+    margin: 1%;
+    padding: 1.0%;
+}
+
+.item{
+    display: flex;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    width: 300px;
+    font-family: cursive;
+}
+
+.item *{
+    margin: 1%;
+    padding: 1.0%;
+}
